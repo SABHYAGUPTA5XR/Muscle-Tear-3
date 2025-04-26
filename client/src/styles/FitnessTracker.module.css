@@ -1,0 +1,153 @@
+/* Navbar Styling */
+
+  .logo {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: red;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  nav ul li {
+    display: inline;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1em;
+    padding: 5px 10px;
+    transition: color 0.3s ease;
+  }
+  
+  nav ul li a:hover,
+  nav ul li a.active {
+    color: red;
+  }
+  
+  /* General container styling */
+  .container {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #222;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 10px rgba(255, 0, 0, 0.3); /* Red glow effect */
+  }
+  
+  /* Image container */
+  .product-image {
+    flex: 1;
+    max-width: 300px;
+    text-align: center;
+  }
+  
+  .product-image img {
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+    border-radius: 8px;
+    object-fit: contain;
+  }
+  
+  /* Product details */
+  .product-details {
+    flex: 2;
+    padding: 20px;
+    color: white;
+    text-align: left;
+  }
+  
+  .product-title {
+    font-size: 1.8em;
+    color: red;
+    margin-bottom: 10px;
+  }
+  
+  .product-description {
+    font-size: 1.1em;
+    line-height: 1.5;
+    margin-bottom: 15px;
+  }
+  
+  /* List styling */
+  .product-info ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  .product-info ul li {
+    padding: 5px 0;
+    font-size: 1em;
+  }
+  
+  /* Price and Rating */
+  .price {
+    font-size: 1.3em;
+    font-weight: bold;
+    margin-top: 10px;
+    color: red;
+  }
+  
+  .rating {
+    font-size: 1.1em;
+    margin-top: 8px;
+  }
+  
+  /* Add to Cart Button */
+  .buy-button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: red;
+    color: white;
+    font-size: 1.1em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .buy-button:hover {
+    background-color: #900;
+  }
+  
+
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .product-image {
+      max-width: 80%;
+      margin-bottom: 15px;
+    }
+  
+    .product-image img {
+      max-width: 200px;
+    }
+  
+    .product-details {
+      text-align: center;
+    }
+  
+    nav ul {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    nav ul li {
+      padding: 5px 0;
+    }
+  }
+  

@@ -1,0 +1,112 @@
+/* General container styling */
+.container {
+    max-width: 900px; /* Sets max width for the product section */
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #222;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 10px rgba(255, 0, 0, 0.3); /* Red glow effect */
+  }
+  
+  /* Image container */
+  .product-image {
+    flex: 1;
+    max-width: 300px; /* Restrict image width */
+    text-align: center;
+  }
+  
+  .product-image img {
+    width: 100%;  /* Make sure it scales within the div */
+    max-width: 250px; /* Limit max size */
+    height: auto;
+    border-radius: 8px;
+    object-fit: contain; /* Prevents distortion */
+  }
+  
+  /* Product details */
+  .product-details {
+    flex: 2;
+    padding: 20px;
+    color: white;
+    text-align: left;
+  }
+  
+  .product-title {
+    font-size: 1.8em;
+    color: red;
+    margin-bottom: 10px;
+  }
+  
+  .product-description {
+    font-size: 1.1em;
+    line-height: 1.5;
+    margin-bottom: 15px;
+  }
+  
+  /* List styling */
+  .product-info ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  .product-info ul li {
+    padding: 5px 0;
+    font-size: 1em;
+  }
+  
+  /* Price and Rating */
+  .price {
+    font-size: 1.3em;
+    font-weight: bold;
+    margin-top: 10px;
+    color: red;
+  }
+  
+  .rating {
+    font-size: 1.1em;
+    margin-top: 8px;
+  }
+  
+  /* Add to Cart Button */
+  .buy-button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: red;
+    color: white;
+    font-size: 1.1em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .buy-button:hover {
+    background-color: #900;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .product-image {
+      max-width: 80%;
+      margin-bottom: 15px;
+    }
+  
+    .product-image img {
+      max-width: 200px; /* Reduce image size for smaller screens */
+    }
+  
+    .product-details {
+      text-align: center;
+    }
+  }
+  
