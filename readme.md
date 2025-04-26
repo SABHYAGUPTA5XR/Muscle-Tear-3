@@ -10,8 +10,9 @@ This version of Muscle Tear builds upon the previous e-commerce platform by expa
 ## Features
 
 * **Home Page:** The main landing page showcasing featured products and promotions.
-    ```md
-    ![Home Page](client/public/assets/images/homepageMT.png)
+    <p align="center">
+  <img src="assets/images/homepageMT.png" alt="MUSCLE TEAR Website Screenshot" width="800"/>
+</p>
     
 * **About Page:** Learn more about our team and mission.
     ```md
