@@ -1,4 +1,4 @@
-# Muscle Tear - Enhanced Gym Supplement & Workout Platform (Version 3)
+# Muscle Tear (Version 3)
 
 This version of Muscle Tear builds upon the previous e-commerce platform by expanding the product offerings and introducing user authentication for a more personalized experience.
 
@@ -9,25 +9,25 @@ This version of Muscle Tear builds upon the previous e-commerce platform by expa
 
 ## Features
 
-* **Home Page:** The main landing page showcasing featured products and promotions.
+* **Home Page:** The main landing page showcasing featured products!
     <p align="center">
-  <img src="assets/images/homepageMT.png" alt="MUSCLE TEAR Website Screenshot" width="800"/>
+  <img src="client/public/assets/images/homepageMT.png" alt="MUSCLE TEAR Website Screenshot" width="800"/>
 </p>
     
-* **About Page:** Learn more about our team and mission.
-    ```md
-    ![About Page](path/to/aboutpage_screenshot.png)
-    ```
-* **Products Page:** Browse our complete catalog of gym supplements.
-* **Cart Page:** Review and manage the items in your shopping cart.
-* **Login Page:** Existing users can securely log in to their accounts.
-    ```md
-    ![Login Page](path/to/loginpage_screenshot.png)
-    ```
-* **Register Page:** New users can create an account to access personalized features.
-    ```md
-    ![Register Page](path/to/registerpage_screenshot.png)
-    ```
+* **About Page:** Learn more about our team and mission!
+    <p align="center">
+  <img src="client/public/assets/images/aboutMT.png" alt="MUSCLE TEAR Website Screenshot" width="800"/>
+</p>
+
+* **Products Page:** Have a look at our Products!
+    <p align="center">
+  <img src="client/public/assets/images/productMT.png" alt="MUSCLE TEAR Website Screenshot" width="800"/>
+</p>
+
+* **SignUp and Login Page:** Existing users can securely log in to their accounts, else Sign Up!
+        <p align="center">
+  <img src="client/public/assets/images/registerAndLoginMT.png" alt="MUSCLE TEAR Website Screenshot" width="800"/>
+</p>
 
 ## Tech Stack
 
