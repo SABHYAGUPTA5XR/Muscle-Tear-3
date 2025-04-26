@@ -11,8 +11,8 @@ This version of Muscle Tear builds upon the previous e-commerce platform by expa
 
 * **Home Page:** The main landing page showcasing featured products and promotions.
     ```md
-    ![Home Page](.png)
-    ```
+    ![Home Page](client/public/assets/images/homepageMT.png)
+    
 * **About Page:** Learn more about our team and mission.
     ```md
     ![About Page](path/to/aboutpage_screenshot.png)
